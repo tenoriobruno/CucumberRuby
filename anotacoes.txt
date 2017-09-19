@@ -1,0 +1,8 @@
+Background (Contexto) allows you to add some context to the scenarios in a single feature.
+A Background is much like a scenario containing a number of steps. The difference is when it is run.
+The background is run before each of your scenarios but after any of your Before Hooks.
+
+Esquema do Cenario: Informa ao Cucumber que este cenário irá utilizar um conjunto de dados
+
+Exemplos: É utilizado para estabelecer um conjunto de dados a serem executados nos passos definido no
+Esquema do Cenario para usar tabelas

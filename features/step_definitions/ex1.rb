@@ -1,3 +1,7 @@
+=begin
+Background (Contexto) allows you to add some context to the scenarios in a single feature. A Background is much like a scenario containing a number of steps. The difference is when it is run. The background is run before each of your scenarios but after any of your Before Hooks.
+=end
+
 Dado(/^que estou na tela de Login$/) do
   #pending # Write code here that turns the phrase above into concrete actions
   @a += 1
